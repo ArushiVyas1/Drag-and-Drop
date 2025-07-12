@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#left, #right {
+    width: 45%;
+    border: 2px dashed #fff;
+    padding: 10px;
+    min-height: 200px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(56, 132, 164);
+    cursor: grab;
+}
+
+.list img {
+    margin-right: 10px;
+}
+
+.dropzone {
+    background-color: #f0f0f0;
+}
